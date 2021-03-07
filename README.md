@@ -7,6 +7,11 @@ The TohrMovies Project was made to consume the movie db API and understand some 
 > RxSwift
 > RxCocoa
 > UISearchBar
+> TabBar
+> CollectionView
+> Programmatic Screens
+> XibFiles
+> StoryBoard
 
 # attention
 don't forgot to open the TohrMovies.xcworkspace file after you give the pod install if needed.
