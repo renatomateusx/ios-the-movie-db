@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ix7-xd-Pvb" customClass="CastMemberCollectionViewCell" customModule="movies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rober downey Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmg-if-UCY">
+                        <rect key="frame" x="0.0" y="2" width="80" height="28"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="11"/>
+                        <color key="textColor" systemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AMX-Ma-8vI" userLabel="View - Container">
+                        <rect key="frame" x="0.0" y="30" width="80" height="80"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="up8-Iu-1n3">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="up8-Iu-1n3" secondAttribute="height" multiplier="1:1" id="P26-ov-bhg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rja-KW-shG">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="up8-Iu-1n3" secondAttribute="trailing" id="17M-26-9TU"/>
+                            <constraint firstAttribute="bottom" secondItem="Rja-KW-shG" secondAttribute="bottom" id="EEm-mn-rj9"/>
+                            <constraint firstAttribute="trailing" secondItem="Rja-KW-shG" secondAttribute="trailing" id="F4z-yF-2C8"/>
+                            <constraint firstItem="up8-Iu-1n3" firstAttribute="top" secondItem="AMX-Ma-8vI" secondAttribute="top" id="F9g-Q8-XjH"/>
+                            <constraint firstAttribute="bottom" secondItem="up8-Iu-1n3" secondAttribute="bottom" id="QED-3M-yZc"/>
+                            <constraint firstItem="up8-Iu-1n3" firstAttribute="leading" secondItem="AMX-Ma-8vI" secondAttribute="leading" id="fYr-Dh-a7K"/>
+                            <constraint firstItem="Rja-KW-shG" firstAttribute="leading" secondItem="AMX-Ma-8vI" secondAttribute="leading" id="tll-BZ-ATW"/>
+                            <constraint firstItem="Rja-KW-shG" firstAttribute="top" secondItem="AMX-Ma-8vI" secondAttribute="top" id="xw3-0F-LAX"/>
+                            <constraint firstAttribute="width" secondItem="AMX-Ma-8vI" secondAttribute="height" multiplier="1:1" id="zMV-xT-F5t"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNj-s8-jzC">
+                        <rect key="frame" x="0.0" y="113" width="80" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" systemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AMX-Ma-8vI" firstAttribute="top" secondItem="Zmg-if-UCY" secondAttribute="bottom" id="2mO-1L-fGi"/>
+                <constraint firstItem="Zmg-if-UCY" firstAttribute="top" secondItem="Ix7-xd-Pvb" secondAttribute="top" constant="2" id="6ue-Wp-dmi"/>
+                <constraint firstAttribute="trailing" secondItem="CNj-s8-jzC" secondAttribute="trailing" id="7HL-g2-dsd"/>
+                <constraint firstItem="AMX-Ma-8vI" firstAttribute="leading" secondItem="Ix7-xd-Pvb" secondAttribute="leading" id="Fpq-zg-rGE"/>
+                <constraint firstItem="Zmg-if-UCY" firstAttribute="leading" secondItem="Ix7-xd-Pvb" secondAttribute="leading" id="Hrr-iq-pNK"/>
+                <constraint firstAttribute="trailing" secondItem="AMX-Ma-8vI" secondAttribute="trailing" id="Tsp-e9-ic1"/>
+                <constraint firstItem="AMX-Ma-8vI" firstAttribute="centerY" secondItem="Ix7-xd-Pvb" secondAttribute="centerY" id="Vei-L4-EoP"/>
+                <constraint firstItem="CNj-s8-jzC" firstAttribute="top" secondItem="AMX-Ma-8vI" secondAttribute="bottom" constant="3" id="ngB-ia-KAF"/>
+                <constraint firstAttribute="trailing" secondItem="Zmg-if-UCY" secondAttribute="trailing" id="qkJ-b0-AXs"/>
+                <constraint firstItem="CNj-s8-jzC" firstAttribute="leading" secondItem="Ix7-xd-Pvb" secondAttribute="leading" id="wYE-av-DtM"/>
+            </constraints>
+            <connections>
+                <outlet property="containerView" destination="AMX-Ma-8vI" id="fJa-9n-oY2"/>
+                <outlet property="nameLabel" destination="CNj-s8-jzC" id="SF9-6m-lmL"/>
+                <outlet property="profileImageView" destination="Rja-KW-shG" id="riQ-3J-cWM"/>
+                <outlet property="profileInitialsLabel" destination="up8-Iu-1n3" id="1eR-vn-ECP"/>
+                <outlet property="roleLabel" destination="Zmg-if-UCY" id="a8h-Tj-Sfr"/>
+            </connections>
+            <point key="canvasLocation" x="-65" y="-13"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

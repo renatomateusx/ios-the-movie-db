@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="9qg-UH-Oag" customClass="MovieCollectionViewCell" customModule="movies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pcx-Ej-oTq">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="257"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Pcx-Ej-oTq" secondAttribute="trailing" id="6Ei-46-Gob"/>
+                <constraint firstItem="Pcx-Ej-oTq" firstAttribute="top" secondItem="9qg-UH-Oag" secondAttribute="top" id="Zfk-HE-E0J"/>
+                <constraint firstAttribute="bottom" secondItem="Pcx-Ej-oTq" secondAttribute="bottom" id="mRK-8n-Kt3"/>
+                <constraint firstItem="Pcx-Ej-oTq" firstAttribute="leading" secondItem="9qg-UH-Oag" secondAttribute="leading" id="u3c-GK-2fN"/>
+            </constraints>
+            <size key="customSize" width="220" height="257"/>
+            <connections>
+                <outlet property="filmPosterImageView" destination="Pcx-Ej-oTq" id="6Kd-bQ-CRG"/>
+            </connections>
+            <point key="canvasLocation" x="-348" y="-67"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "607C63FB-70F1-4C64-A36B-CA6F87560CE7"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2875A6F-884B-4727-AF89-2456B1FF74AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TohrMovies/Services/MovieRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchCodableEntity(from:successHandler:errorHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DF1656E-D723-4E5F-8784-E5514BB1E40B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "searchMovie(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A81293D2-7722-455D-9CA5-AC76EE5E4FC6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "searchMovie(query:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A81293D2-7722-455D-9CA5-AC76EE5E4FC6 - 48bfb91bb35b7c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TohrMovies.SearchMovieViewModel.(searchMovie in _57494BA436AF55526A84D8ADD283E311)(query: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "TohrMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renatomateus/Documents/ios-projects/TohrMovies/TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "947">
+               </Location>
+               <Location
+                  uuid = "A81293D2-7722-455D-9CA5-AC76EE5E4FC6 - d176df7c7fc9c15b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TohrMovies.MoviesResponse) -&gt; () in TohrMovies.SearchMovieViewModel.(searchMovie in _57494BA436AF55526A84D8ADD283E311)(query: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "TohrMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renatomateus/Documents/ios-projects/TohrMovies/TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "1803">
+               </Location>
+               <Location
+                  uuid = "A81293D2-7722-455D-9CA5-AC76EE5E4FC6 - dbb05581cf2f4452"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Error) -&gt; () in TohrMovies.SearchMovieViewModel.(searchMovie in _57494BA436AF55526A84D8ADD283E311)(query: Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "TohrMovies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/renatomateus/Documents/ios-projects/TohrMovies/TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "103">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B3D2B5A-4E63-40F7-A985-29AFC5C7E3E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "searchMovie(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97C8CD05-30F1-4F26-A7BD-CA28DDD9CFC7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TohrMovies/Scenes/Search/SearchMovieViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "searchMovie(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

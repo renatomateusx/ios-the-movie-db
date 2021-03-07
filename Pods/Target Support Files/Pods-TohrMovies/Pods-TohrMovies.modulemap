@@ -1,0 +1,6 @@
+framework module Pods_TohrMovies {
+  umbrella header "Pods-TohrMovies-umbrella.h"
+
+  export *
+  module * { export * }
+}
