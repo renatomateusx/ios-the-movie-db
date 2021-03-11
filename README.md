@@ -17,6 +17,7 @@ The TohrMovies Project was made to consume the movie db API and understand some 
 don't forgot to open the TohrMovies.xcworkspace file after you give the pod install if needed.
 
 # preview
+![alt tag](https://github.com/renatomateusx/ios-the-movie-db/blob/master/TohrMoviesiOS13iPhone12.png)
 ![alt tag](https://github.com/renatomateusx/ios-the-movie-db/blob/master/1.png)
 ![alt tag](https://github.com/renatomateusx/ios-the-movie-db/blob/master/2.png)
 ![alt tag](https://github.com/renatomateusx/ios-the-movie-db/blob/master/3.png)
